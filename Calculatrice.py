@@ -1,3 +1,5 @@
+import maths
+
 # ---- Calculatrice ---- 
 def somme(a,b):
     return a+b
@@ -14,6 +16,8 @@ def division(a,b):
 def puissance(a,b):
     return a**b
 
+def racine_carree(a):
+    return math.sqrt(a)
 
 def affiche_resultat(operation, resultat):
     match operation:
