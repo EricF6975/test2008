@@ -18,4 +18,3 @@ def affiche_resultat(operation, resultat):
 
 print("Calculator activé")
 affiche_resultat("somme",somme(1,2))
-affiche_resultat("soustraction", soustraction(4,7))
