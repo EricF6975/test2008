@@ -20,6 +20,8 @@ def affiche_resultat(operation, resultat):
             print(f"La différence est {resultat}")
         case "multiplication":
             print(f"Le produit est {resultat}")
+        case "division":
+            printf(f"Le quotient est {resultat}")
         case _:
             print(f"Le resultat est {resultat}")
 
