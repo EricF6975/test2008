@@ -5,6 +5,9 @@ def somme(a,b):
 def soustraction(a,b):
     return a-b
 
+def multiplication(a,b):
+    return a*b
+
 
 def affiche_resultat(operation, resultat):
     match operation:
@@ -18,3 +21,4 @@ def affiche_resultat(operation, resultat):
 
 print("Calculator activé")
 affiche_resultat("somme",somme(1,2))
+affiche_resultat("soustraction",soustraction(5,9))
