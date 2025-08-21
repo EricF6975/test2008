@@ -11,6 +11,9 @@ def multiplication(a,b):
 def division(a,b):
     return a/b
 
+def puissance(a,b):
+    return a**b
+
 
 def affiche_resultat(operation, resultat):
     match operation:
@@ -22,6 +25,8 @@ def affiche_resultat(operation, resultat):
             print(f"Le produit est {resultat}")
         case "division":
             print(f"Le quotient est {resultat}")
+        case "puissance":
+            print(f"La puissance est {resultat}")
         case _:
             print(f"Le resultat est {resultat}")
 
