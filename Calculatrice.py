@@ -1,4 +1,4 @@
-import maths
+import math
 
 # ---- Calculatrice ---- 
 def somme(a,b):
@@ -40,3 +40,5 @@ affiche_resultat("somme",somme(1,2))
 affiche_resultat("soustraction",soustraction(5,9))
 affiche_resultat("multiplication",multiplication(4,5))
 affiche_resultat("division",division(6,4))
+affiche_resultat("puissance",puissance(4,5))
+affiche_resultat("racine_carree",racine_carree(8))
