@@ -15,6 +15,8 @@ def affiche_resultat(operation, resultat):
             print(f"La somme est {resultat}")
         case "soustraction":
             print(f"La différence est {resultat}")
+        case "multiplication":
+            print(f"Le produit est {resultat}")
         case _:
             print(f"Le resultat est {resultat}")
 
