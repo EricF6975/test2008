@@ -19,6 +19,9 @@ def puissance(a,b):
 def racine_carree(a):
     return math.sqrt(a)
 
+def cosinus(a):
+    return math.cos(a)
+
 def affiche_resultat(operation, resultat):
     match operation:
         case "somme":
