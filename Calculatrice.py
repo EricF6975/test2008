@@ -31,6 +31,8 @@ def affiche_resultat(operation, resultat):
             print(f"Le quotient est {resultat}")
         case "puissance":
             print(f"La puissance est {resultat}")
+        case "racine_carree":
+            print(f"La racine carrée est {resultat}")
         case _:
             print(f"Le resultat est {resultat}")
 
